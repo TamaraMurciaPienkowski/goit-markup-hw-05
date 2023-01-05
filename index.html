@@ -58,9 +58,6 @@
         <div class="container">
           <h1 class="slogan">efektywne rozwiązania dla waszego biznesu</h1>
           <button data-modal-open type="button" class="click-to-order">Zamów usługę</button>
-          <div class="modal is-hidden" data-modal>
-            <button data-modal-close class="modal-button">&times;</button>
-          </div>
         </div>
       </section>
       <!-- advantages -->
@@ -384,6 +381,13 @@
       </div>
     </footer>
     <!-- end of footer -->
+    <!-- modal and backdrop -->
+    <div class="is-hidden backdrop" data-modal>
+      <div class="modal is-hidden" data-modal>
+        <button type="button" data-modal-close class="modal-button">&times;</button>
+      </div>
+    </div>
+    <!-- end of modal and backdrop -->
     <script src="./js/modal.js"></script>
   </body>
 </html>
