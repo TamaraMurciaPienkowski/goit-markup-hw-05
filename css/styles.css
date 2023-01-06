@@ -247,7 +247,6 @@ body {
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
-  transform: translateX(-50%) translateY(-50%) scale(0) rotate (0deg) skew(40deg, 40deg);
 }
 
 /* title section end */
@@ -557,9 +556,9 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .projects-list span {
@@ -568,19 +567,25 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  margin-top: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 20px;
+  padding-top: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
 }
 
 .projects-card-overlay {
   display: block;
   position: relative;
   overflow: hidden;
+  height: 294px;
+  margin: 0px;
+  padding: 0px;
 }
+
 .projects-list p {
   position: absolute;
+  margin: 0px;
+  padding: 0px;
   top: 0;
   left: 0;
   width: 100%;
@@ -597,6 +602,7 @@ body {
   padding-bottom: 49px;
   font-weight: 400;
   line-height: 1.55;
+  height: 294px;
 }
 
 .projects-list li:hover p {
