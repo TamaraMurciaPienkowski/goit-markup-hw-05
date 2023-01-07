@@ -538,6 +538,10 @@ body {
   gap: 30px;
 }
 
+.projects-card-overlay img {
+  display: block;
+}
+
 .projects-list li {
   border: solid #eeeeee 1px;
   width: 370px;
